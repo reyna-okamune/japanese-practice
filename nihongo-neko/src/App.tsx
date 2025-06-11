@@ -1,11 +1,11 @@
 import './App.css'
-import QuizPageComponent from './QuizPageComponent'
+import HomePageComponent from './HomePageComponent'
 
 function App() {
 
   return (
     <>
-      < QuizPageComponent />
+      < HomePageComponent />
     </>
   )
 }
