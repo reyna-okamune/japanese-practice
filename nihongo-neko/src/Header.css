@@ -1,9 +1,26 @@
 .home-top {
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
-    width: 100vw;
-    border: 1px solid rgb(255, 255, 255);
-    box-sizing: border-box;
+    padding: 0.75rem 0;
+}
+
+.home-button {
+    background-color: #fdfdfe;
+    color: rgba(1, 2, 5, 0.3);
+    border: none;
+    margin: 0;
+}
+
+.home-button:hover, .home-button:focus {
+    color: rgba(1, 2, 5, 1);
+    outline: none;
+    margin: 0;
+}
+
+.material-symbols-rounded {
+    font-size: 1.75rem;
+    
 }
 
 .home-title {

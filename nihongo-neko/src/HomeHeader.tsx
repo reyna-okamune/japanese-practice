@@ -3,7 +3,11 @@ function HomeHeader() {
     return (
         <>
             <div className='home-top'>
-                
+                <button className='home-button'>
+                    <span className="material-symbols-rounded">
+                        home
+                    </span>
+                </button>
             </div>
 
 
