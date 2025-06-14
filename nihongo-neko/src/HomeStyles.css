@@ -1,0 +1,53 @@
+.home-option-button {
+    background-color: rgba(106, 184, 172, 0.3);
+    text-align: left;
+    width: 80vw;
+    padding: 1.25em 1em 1.25em;
+    border-radius: 1em;
+    border: none;
+    display: flex;
+    margin: 0;
+}
+
+.home-option-button:hover {
+    background-color: rgba(106, 184, 172, 0.5);
+    border: none;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 25px;
+    height: auto;
+}
+
+.title-container {
+    padding-left: 0.75em;
+}
+.home-option-button h1 {
+    font-size: 0.55rem;
+    font-weight: 500;
+}
+
+.home-option-button h2 {
+    font-size: 0.4375rem;
+    font-weight: 400;
+}
+
+.home-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 3.125em 0 0;
+}
+
+.topics {
+    display: flex;
+    gap: 2px;
+}
