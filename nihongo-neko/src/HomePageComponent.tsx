@@ -6,7 +6,7 @@ import HomeSectionOption from './HomeSectionOption';
 
 function HomePageComponent() {
 
-    console.log(materials)
+    // console.log(materials)
     return (
         <>
             < HomeHeader />

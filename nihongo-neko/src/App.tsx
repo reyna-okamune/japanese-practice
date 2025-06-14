@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import HomePageComponent from './HomePageComponent'
+import SectionPageComponent from './SectionPageComponent'
 import QuizPageComponent from './QuizPageComponent'
 import Footer from './Footer'
 
@@ -11,7 +12,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePageComponent />} />
-          <Route path="/quiz" element={<QuizPageComponent />} />
+          <Route path="/:materialRoute" element={<SectionPageComponent />} />
+          <Route path="/:materialRoute/:sectionName" element={<QuizPageComponent />} />
         </Routes>
     </Router>
 
